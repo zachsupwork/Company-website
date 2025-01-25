@@ -3,112 +3,92 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Voice Assistant Services</title>
+  <title>AI Voice Assistant</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f4f4f9;
+      line-height: 1.6;
     }
-
     header {
-      background-color: #282c34;
-      color: #fff;
-      padding: 20px 0;
+      background: #1e1e1e;
+      color: white;
+      padding: 20px 10px;
       text-align: center;
     }
-
-    header h1 {
-      margin: 0;
-    }
-
-    header p {
-      margin: 5px 0 0;
-    }
-
-    main {
+    .content {
       padding: 20px;
-      max-width: 800px;
-      margin: auto;
+      max-width: 900px;
+      margin: 0 auto;
     }
-
-    h2 {
-      color: #333;
+    .widget-section {
+      margin-top: 30px;
     }
-
-    .calendar, .checkout {
-      margin: 20px 0;
-      text-align: center;
-    }
-
     iframe {
       width: 100%;
-      height: 600px;
       border: none;
+      height: 600px;
     }
-
-    .links {
-      margin-top: 30px;
+    footer {
+      background: black;
+      color: white;
       text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+      position: relative;
     }
-
-    .links a {
-      margin: 0 10px;
+    footer a {
+      color: #00aaff;
       text-decoration: none;
-      color: #007bff;
     }
-
-    .links a:hover {
+    footer a:hover {
       text-decoration: underline;
     }
-
-    footer {
-      background-color: #000;
-      color: #fff;
-      text-align: center;
-      padding: 10px 0;
-      margin-top: 20px;
+    .hidden {
+      display: none;
     }
   </style>
 </head>
 <body>
 
 <header>
-  <h1>Welcome to AdvancedAI Voice Assistant</h1>
-  <p>Your all-in-one solution for smarter, faster customer interactions.</p>
+  <h1>AI Voice Assistant</h1>
+  <p>Revolutionize customer service with AI-powered voice agents for your business.</p>
 </header>
 
-<main>
-  <h2>Why Choose Our AI Voice Assistant?</h2>
-  <p>Our AI voice agents are here to enhance your business operations and customer experiences. Whether you're handling inbound or outbound calls, booking appointments, or providing information support, our AI assistants are ready to help 24/7.</p>
-  <p>Benefits include:</p>
-  <ul>
-    <li>Seamless scheduling and booking for your customers.</li>
-    <li>Knowledgeable and instant answers about your services.</li>
-    <li>Effortless handling of calls, saving you time and resources.</li>
-  </ul>
+<div class="content">
+  <section>
+    <h2>Why Choose AI Voice Assistants?</h2>
+    <ul>
+      <li><strong>24/7 Availability:</strong> Ensure your customers always have support, no matter the time.</li>
+      <li><strong>Effortless Booking:</strong> Handle appointment scheduling seamlessly and efficiently.</li>
+      <li><strong>Proactive Outreach:</strong> Let our AI agents make outbound calls to enhance your service.</li>
+      <li><strong>Accurate Information:</strong> Provide consistent and knowledgeable responses about your services.</li>
+    </ul>
+  </section>
 
-  <div class="checkout">
-    <h2>Get Started Now</h2>
-    <iframe src="https://checkout-1-tier.vercel.app/"></iframe>
-  </div>
+  <section class="widget-section">
+    <h2>Experience the Future of Customer Support</h2>
+    <p>Try out our AI voice assistant right here:</p>
+    <elevenlabs-convai agent-id="5Hu38lC4CzWObrmA4tXI"></elevenlabs-convai>
+    <script src="https://elevenlabs.io/convai-widget/index.js" async type="text/javascript"></script>
+    <div class="hidden">Powered by ElevenLabs</div>
+  </section>
 
-  <div class="calendar">
-    <h2>Book a Discussion</h2>
-    <iframe src="https://calendly.com/booking-appointments-calendly/booking-appointments-discussion"></iframe>
-  </div>
+  <section class="widget-section">
+    <h2>Subscription Options</h2>
+    <iframe src="https://checkout-1-tier.vercel.app/" title="Subscription Checkout"></iframe>
+  </section>
 
-  <div class="links">
-    <a href="https://terms-and-conditions-three.vercel.app/" target="_blank">Terms and Conditions</a>
-    <a href="https://policies-tau.vercel.app/" target="_blank">Policies</a>
-  </div>
-</main>
+  <section class="widget-section">
+    <h2>Book an Appointment</h2>
+    <iframe src="https://calendly.com/booking-appointments-calendly/booking-appointments-discussion" title="Calendly Appointment Booking"></iframe>
+  </section>
+</div>
 
 <footer>
-  <elevenlabs-convai agent-id="5Hu38lC4CzWObrmA4tXI"></elevenlabs-convai>
-  <script src="https://elevenlabs.io/convai-widget/index.js" async type="text/javascript"></script>
-  Powered by ElevenLabs
+  <p>For more information, read our <a href="https://terms-and-conditions-three.vercel.app/" target="_blank">Terms and Conditions</a> and <a href="https://policies-tau.vercel.app/" target="_blank">Privacy Policies</a>.</p>
 </footer>
 
 </body>
