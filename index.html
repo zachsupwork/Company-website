@@ -1,108 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Voice Assistant Services</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px 0;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        .section {
-            margin-bottom: 30px;
-        }
-        .section h2 {
-            color: #333;
-        }
-        iframe {
-            width: 100%;
-            height: 600px;
-            border: none;
-            margin-top: 10px;
-        }
-        .embed-container {
-            margin-bottom: 30px;
-        }
-        footer {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-        }
-        footer a {
-            color: #4CAF50;
-            text-decoration: none;
-        }
-        footer a:hover {
-            text-decoration: underline;
-        }
-        .black-frame {
-            background-color: black;
-            padding: 20px;
-            margin-top: 30px;
-            text-align: center;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Voice Assistant Services</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9;
+    }
+
+    header {
+      background-color: #282c34;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    header p {
+      margin: 5px 0 0;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    .calendar, .checkout {
+      margin: 20px 0;
+      text-align: center;
+    }
+
+    iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+    }
+
+    .links {
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    .links a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #007bff;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>AI Voice Assistant Services</h1>
-        <p>Empowering businesses with intelligent voice solutions</p>
-    </header>
 
-    <div class="container">
-        <div class="section">
-            <h2>Why Choose Our AI Voice Assistant?</h2>
-            <p>
-                Our AI voice agents are designed to revolutionize your customer interactions. Whether on your website or over the phone, our solutions deliver exceptional benefits:
-            </p>
-            <ul>
-                <li>Handle inbound and outbound calls efficiently</li>
-                <li>Book appointments seamlessly and reliably</li>
-                <li>Provide accurate and instant information</li>
-                <li>Reduce operational costs while enhancing customer satisfaction</li>
-            </ul>
-        </div>
+<header>
+  <h1>Welcome to AdvancedAI Voice Assistant</h1>
+  <p>Your all-in-one solution for smarter, faster customer interactions.</p>
+</header>
 
-        <div class="embed-container">
-            <h2>Try Our AI Voice Assistant</h2>
-            <div class="black-frame">
-                <elevenlabs-convai agent-id="5Hu38lC4CzWObrmA4tXI"></elevenlabs-convai>
-                <script src="https://elevenlabs.io/convai-widget/index.js" async type="text/javascript"></script>
-            </div>
-        </div>
+<main>
+  <h2>Why Choose Our AI Voice Assistant?</h2>
+  <p>Our AI voice agents are here to enhance your business operations and customer experiences. Whether you're handling inbound or outbound calls, booking appointments, or providing information support, our AI assistants are ready to help 24/7.</p>
+  <p>Benefits include:</p>
+  <ul>
+    <li>Seamless scheduling and booking for your customers.</li>
+    <li>Knowledgeable and instant answers about your services.</li>
+    <li>Effortless handling of calls, saving you time and resources.</li>
+  </ul>
 
-        <div class="section">
-            <h2>Book a Consultation</h2>
-            <p>Discuss how our AI solutions can elevate your business by booking a free consultation below:</p>
-            <iframe src="https://checkout-1-tier.vercel.app/"></iframe>
-            <iframe src="https://calendly.com/booking-appointments-calendly/booking-appointments-discussion"></iframe>
-        </div>
+  <div class="checkout">
+    <h2>Get Started Now</h2>
+    <iframe src="https://checkout-1-tier.vercel.app/"></iframe>
+  </div>
 
-        <footer>
-            <p>&copy; 2025 AdvancedAI. All rights reserved.</p>
-            <p>
-                <a href="https://terms-and-conditions-three.vercel.app/" target="_blank">Terms and Conditions</a> |
-                <a href="https://policies-tau.vercel.app/" target="_blank">Policies</a>
-            </p>
-        </footer>
-    </div>
+  <div class="calendar">
+    <h2>Book a Discussion</h2>
+    <iframe src="https://calendly.com/booking-appointments-calendly/booking-appointments-discussion"></iframe>
+  </div>
+
+  <div class="links">
+    <a href="https://terms-and-conditions-three.vercel.app/" target="_blank">Terms and Conditions</a>
+    <a href="https://policies-tau.vercel.app/" target="_blank">Policies</a>
+  </div>
+</main>
+
+<footer>
+  <elevenlabs-convai agent-id="5Hu38lC4CzWObrmA4tXI"></elevenlabs-convai>
+  <script src="https://elevenlabs.io/convai-widget/index.js" async type="text/javascript"></script>
+  Powered by ElevenLabs
+</footer>
+
 </body>
 </html>
